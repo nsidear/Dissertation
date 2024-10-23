@@ -1,0 +1,13 @@
+library(ggplot2)
+library(tidyverse)
+library(reshape2)
+library(glmnet)
+library(caret)
+library(car)
+library(grid)
+library(gridExtra)
+library(corrplot
+library(moments)
+library(readr)
+garments_worker_productivity_updated <- read_csv("C:/Users/nsika/Desktop/garments_worker_productivity updated.csv")
+View(garments_worker_productivity_updated)
